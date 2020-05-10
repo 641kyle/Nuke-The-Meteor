@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuke_The_Meteor", "Nuke_The_Meteor\Nuke_The_Meteor.csproj", "{1A96795D-65BA-4600-8BA2-CD5CCAD5F27D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A96795D-65BA-4600-8BA2-CD5CCAD5F27D}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{1A96795D-65BA-4600-8BA2-CD5CCAD5F27D}.Debug|anycpu.Build.0 = Debug|anycpu
+		{1A96795D-65BA-4600-8BA2-CD5CCAD5F27D}.Release|anycpu.ActiveCfg = Release|anycpu
+		{1A96795D-65BA-4600-8BA2-CD5CCAD5F27D}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal

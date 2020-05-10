@@ -1,0 +1,63 @@
+﻿
+-------------------------------------------------------------------------------------------------
+Speed: 2       -This is your ROCKET'S current SPEED
+Accuracy: 3    -This is your ROCKET'S current ACCURACY
+Combustion: 4  -This is your ROCKET'S current COMBUSTION
+-------------------------------------------------------------------------------------------------
+                           Rocket Destruction: |111111| - Your ROCKET’s destruction determines
+                                                          how deadly it is on the Meteor,
+                                                          this raises every time you upgrade
+--------------------------------------------------        either your ACCURACY, SPEED, or
+Day: 1 - This is the current day, after day 14    |       COMBUSTION. You want this to be above
+         the METEOR hits, so be quick             |       the Meteors Destruction Threshold (MTD)
+                                                  |       it raises everyday exponentially,
+                                                  |       but you can’t know it unless you talk
+--------------------------------------------------        to the SCIENTIST..  
+
+--------------------------------------------------------------------------------------------------
+Cash = $100 -   This is your current balance. You will recieve $100 daily, no more, no less
+                Use CASH to purchase upgrades, invest, or ask the scientist certain question
+
+==================================================================================================
+
+List of Things you can do:
+--------------------------------------------------------------------------------------------------
+>Next Day - You go to the next day. You recieve $100, but the MDT is raised.
+                Also one less day before the Earth is hit by a Meteor
+--------------------------------------------------------------------------------------------------
+>Upgrade Rocket:
+  Accuracy     -Upgrades your ACCURACY, each upgrade increases by $20
+  Speed        -Upgrades your SPEED, each upgrade increases by $10
+  Combustion   -Upgrades your COMBUSTION, each upgrade increases by $50
+--------------------------------------------------------------------------------------------------
+>Invest: -Allows you to DEPOSIT/WITHDRAWL CASH to increase earnings
+
+    You have: $100                     
+    You have $110 currently invested   
+    Current Investment Percentage increace 20%      -How much your investment will
+                                                     increase once you click next day
+                                                      (Increases %10 each day)
+
+      Withdrawl  -Take money out of investment to pocket
+      Deposit    -Add money to investment
+--------------------------------------------------------------------------------------------------
+>Launch Rocket   -Compares ROCKET DESTRUCTION to MDT.
+                    If ROCKET DESTRUCTION is above MDT, -- You Win! --
+
+                    If MDT is above ROCKET DESTRUCTION,
+                    the MDT is subtracted by the current ROCKET DESTRUCTION
+                    SPEED, ACCURACY, COMBUSTION, & ROCKET DESTRUCTION will be reset to 1
+                    MDT will be lowered and in return not raise as fast since the
+                    Meteor was knocked back a bit, you still only have 14 days though
+--------------------------------------------------------------------------------------------------
+>Consult Scientist
+
+  Test Rocket Destruction: $250       -Insert any numbers for SPEED, ACCURACY, COMBUSTION
+                                             and find what your ROCKET DESTRUCTION would be if
+                                             all numbers inserted were at that current level
+
+  Current Meteor Destrucion: $500           -Tells you the MDT for your current day
+
+  Meteor Destruction Tomorrow: $750         -Tells you the MDT for the next day
+
+  Meteor Destrution Select Day: $1000       -Tells you the MDT for any day you put in

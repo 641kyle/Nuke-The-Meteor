@@ -1,0 +1,14 @@
+/Users/kylehansen/Projects/Nuke_The_Meteor/Nuke_The_Meteor/bin/Debug/Nuke_The_Meteor.exe
+/Users/kylehansen/Projects/Nuke_The_Meteor/Nuke_The_Meteor/bin/Debug/Nuke_The_Meteor.pdb
+/Users/kylehansen/Projects/Nuke_The_Meteor/Nuke_The_Meteor/obj/Debug/Nuke_The_Meteor.csprojAssemblyReference.cache
+/Users/kylehansen/Projects/Nuke_The_Meteor/Nuke_The_Meteor/obj/Debug/Nuke_The_Meteor.exe
+/Users/kylehansen/Projects/Nuke_The_Meteor/Nuke_The_Meteor/obj/Debug/Nuke_The_Meteor.pdb
+/Users/kylehansen/Projects/NuclearMeteor_PreAlpha/Nuke_The_Meteor/bin/Debug/Nuke_The_Meteor.exe
+/Users/kylehansen/Projects/NuclearMeteor_PreAlpha/Nuke_The_Meteor/bin/Debug/Nuke_The_Meteor.pdb
+/Users/kylehansen/Projects/NuclearMeteor_PreAlpha/Nuke_The_Meteor/obj/Debug/Nuke_The_Meteor.csprojAssemblyReference.cache
+/Users/kylehansen/Projects/NuclearMeteor_PreAlpha/Nuke_The_Meteor/obj/Debug/Nuke_The_Meteor.exe
+/Users/kylehansen/Projects/NuclearMeteor_PreAlpha/Nuke_The_Meteor/obj/Debug/Nuke_The_Meteor.pdb
+/Users/kylehansen/Projects/NuclearMeteor_PreAlpha/Nuke_The_Meteor/bin/Debug/Pastel.dll
+/Users/kylehansen/Projects/NuclearMeteor_PreAlpha/Nuke_The_Meteor/bin/Debug/Pastel.xml
+/Users/kylehansen/Projects/NuclearMeteor_PreAlpha/Nuke_The_Meteor/obj/Debug/Nuke_The_Meteor.csproj.CopyComplete
+/Users/kylehansen/Projects/NuclearMeteor_PreAlpha/Nuke_The_Meteor/bin/Debug/Rules.txt

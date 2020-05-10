@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{1A96795D-65BA-4600-8BA2-CD5CCAD5F27D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Nuke_The_Meteor/Meteor.cs">
+    <Files>
+      <File FileName="Nuke_The_Meteor/Program.cs" Line="3" Column="1" />
+      <File FileName="Nuke_The_Meteor/Game.cs" Line="270" Column="27" />
+      <File FileName="Nuke_The_Meteor/Rocket.cs" />
+      <File FileName="Nuke_The_Meteor/TitleScreen.cs" />
+      <File FileName="Nuke_The_Meteor/Rules.txt" Line="15" Column="51" />
+      <File FileName="Nuke_The_Meteor/Menu.cs" Line="70" Column="37" />
+      <File FileName="Nuke_The_Meteor/Upgrade.cs" Line="154" Column="137" />
+      <File FileName="Nuke_The_Meteor/Meteor.cs" Line="28" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Nuke_The_Meteor" expanded="True">
+            <Node name="Nuke_The_Meteor" expanded="True">
+              <Node name="Meteor.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Nuke__The__Meteor PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
