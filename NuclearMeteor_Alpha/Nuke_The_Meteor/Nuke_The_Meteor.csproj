@@ -42,12 +42,31 @@
     <Compile Include="Meteor.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="TitleScreen.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Scenes\Scene.cs" />
+    <Compile Include="Scenes\Main Menu\About.cs" />
+    <Compile Include="Scenes\Main Menu\IntroMenu.cs" />
+    <Compile Include="Scenes\Game Menu\Invest.cs" />
+    <Compile Include="Scenes\Game Menu\NextDay.cs" />
+    <Compile Include="Scenes\Game Menu\Scientist.cs" />
+    <Compile Include="Scenes\Game Menu\ThreeUpgrade.cs" />
+    <Compile Include="Scenes\Game Menu\UpgradeMenu.cs" />
+    <Compile Include="Scenes\Main Menu\Help.cs" />
+    <Compile Include="Scenes\Game Menu\History.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Rules.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="History.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scenes\" />
+    <Folder Include="Scenes\Main Menu\" />
+    <Folder Include="Scenes\Game Menu\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

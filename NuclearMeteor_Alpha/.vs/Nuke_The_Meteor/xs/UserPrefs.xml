@@ -1,21 +1,34 @@
 ﻿<Properties StartupConfiguration="{1A96795D-65BA-4600-8BA2-CD5CCAD5F27D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Nuke_The_Meteor/Meteor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Nuke_The_Meteor/Upgrade.cs">
     <Files>
-      <File FileName="Nuke_The_Meteor/Program.cs" Line="3" Column="1" />
-      <File FileName="Nuke_The_Meteor/Game.cs" Line="270" Column="27" />
-      <File FileName="Nuke_The_Meteor/Rocket.cs" />
-      <File FileName="Nuke_The_Meteor/TitleScreen.cs" />
+      <File FileName="Nuke_The_Meteor/TitleScreen.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Nuke_The_Meteor/Program.cs" Line="11" Column="35" />
+      <File FileName="Nuke_The_Meteor/Game.cs" Line="101" Column="40" />
+      <File FileName="Nuke_The_Meteor/Rocket.cs" Line="62" Column="10" />
       <File FileName="Nuke_The_Meteor/Rules.txt" Line="15" Column="51" />
       <File FileName="Nuke_The_Meteor/Menu.cs" Line="70" Column="37" />
-      <File FileName="Nuke_The_Meteor/Upgrade.cs" Line="154" Column="137" />
-      <File FileName="Nuke_The_Meteor/Meteor.cs" Line="28" Column="10" />
+      <File FileName="Nuke_The_Meteor/Upgrade.cs" Line="123" Column="18" />
+      <File FileName="Nuke_The_Meteor/Meteor.cs" Line="8" Column="27" />
+      <File FileName="Nuke_The_Meteor/Utils.cs" Line="17" Column="23" />
+      <File FileName="Nuke_The_Meteor/packages.config" />
+      <File FileName="Nuke_The_Meteor/Scenes/Scene.cs" />
+      <File FileName="Nuke_The_Meteor/Scenes/Main Menu/Help.cs" Line="15" Column="54" />
+      <File FileName="Nuke_The_Meteor/Scenes/Game Menu/UpgradeMenu.cs" Line="36" Column="44" />
+      <File FileName="Nuke_The_Meteor/Scenes/Game Menu/NextDay.cs" Line="18" Column="125" />
+      <File FileName="Nuke_The_Meteor/Scenes/Game Menu/Invest.cs" Line="51" Column="69" />
+      <File FileName="Nuke_The_Meteor/Scenes/Game Menu/ThreeUpgrade.cs" Line="44" Column="1" />
+      <File FileName="Nuke_The_Meteor/Scenes/Game Menu/Scientist.cs" Line="137" Column="37" />
+      <File FileName="Nuke_The_Meteor/History.txt" Line="3" Column="8" />
+      <File FileName="Nuke_The_Meteor/Scenes/Main Menu/About.cs" Line="5" Column="5" />
+      <File FileName="Nuke_The_Meteor/Scenes/Main Menu/IntroMenu.cs" Line="1" Column="1" />
+      <File FileName="Nuke_The_Meteor/Scenes/Game Menu/History.cs" Line="15" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Nuke_The_Meteor" expanded="True">
             <Node name="Nuke_The_Meteor" expanded="True">
-              <Node name="Meteor.cs" selected="True" />
+              <Node name="Upgrade.cs" selected="True" />
             </Node>
           </Node>
         </State>

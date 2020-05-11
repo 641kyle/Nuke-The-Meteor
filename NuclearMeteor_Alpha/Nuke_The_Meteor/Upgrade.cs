@@ -1,6 +1,7 @@
 ﻿using System;
 using static System.Console;
 using Pastel;
+using System.IO;
 namespace Nuke_The_Meteor
 {
     public class Upgrade
@@ -13,6 +14,7 @@ namespace Nuke_The_Meteor
         public string Feedback;
         bool upgrade;
         double num;
+        string history;
 
 
         //add so they can choose what level they want to upgrade to inorder for them to skip levels and save money
@@ -21,81 +23,6 @@ namespace Nuke_The_Meteor
             UpgradeMenu(upgradeItem, upgradeNum, startPrice, ammountHave);
 
         }
-
-
-        //add so they can choose what level they want to upgrade to inorder for them to skip levels and save money
-        //public void Update(string upgradeItem, double power, double startPrice, double ammountHave)
-        //{
-        //    bool done = false;
-        //    UpgradedItem = upgradeItem;
-
-           
-        //    bool fin = false;
-            
-        //       // Price = Math.Pow(startPrice, (numresponce));
-
-            
-
-        //    double potentialLeft = ammountHave - Price;
-
-        //    if (fin)
-        //    {
-        //        Clear();
-        //        ForegroundColor = ConsoleColor.Red;
-        //        Write("                           ");
-        //        WriteLine("Not a valid responce");
-        //        ResetColor();
-        //        FinalTotal = ammountHave;
-        //    }
-        //    else if (potentialLeft >= 0)
-        //    {
-        //        do
-        //        {
-        //            //change to menu
-        //            do
-        //            {
-        //                WriteLine($"That will be: ${Price} \nYou will have ${potentialLeft} left today... \nAre you sure you want to upgrade {upgradeItem}? (Y/N)");
-        //                string response = ReadLine().ToString().ToLower();
-        //                if (response.StartsWith("y"))
-        //                {
-        //                    done = true;
-        //                    fin = true;
-        //                    //FinalUpNum = UpgradeNum + numresponce;
-        //                    FinalTotal = potentialLeft;
-        //                    Feedback = $"Your {upgradeItem} is now level: {FinalUpNum}";
-        //                    Clear();
-        //                }
-        //                else if (response.StartsWith("n"))
-        //                {
-        //                    done = true;
-        //                    fin = true;
-        //                    FinalTotal = ammountHave;
-        //                    Clear();
-        //                }
-        //                else
-        //                {
-
-        //                }
-
-        //            } while (!fin);
-
-
-
-        //        } while (!done);
-
-            //}
-            //else
-            //{
-            //    FinalUpNum = power;
-            //    ForegroundColor = ConsoleColor.Red;
-            //    Feedback = $"Sorry, you cannot afford an {UpgradedItem} Upgrade at this Time";
-            //    FinalTotal = ammountHave;
-            //}
-
-
-
-       // }
-
 
         public void UpgradeMenu(string upgradeItem, double power, double startPrice, double ammountHave)
         {
@@ -160,10 +87,10 @@ namespace Nuke_The_Meteor
                             FinalTotal = ammountHave - Price;
                             FinalUpNum = num;
                             Feedback = $"Your {upgradeItem} is now level: {FinalUpNum}";
+                            history = $"{upgradeItem}: {num} Lvl";
                             break;
                         case 1:
-                            Feedback = "Your Upgrade was terminated";
-                            
+                            Feedback = $"Your {upgradeItem} Upgrade was terminated";
                             break;
                     }
                     upgrade = true;
@@ -189,6 +116,7 @@ namespace Nuke_The_Meteor
                     FinalUpNum = power;
                     ForegroundColor = ConsoleColor.Red;
                     WriteLine($"{upgradeItem} is too Expensive");
+                    history = $"{upgradeItem} was too Expensive";
                     FinalTotal = ammountHave;
                 }
                 else
@@ -199,7 +127,7 @@ namespace Nuke_The_Meteor
                     FinalTotal = ammountHave;
 
                 }
-              
+                File.AppendAllText("History.txt", "\n" + history);
 
             } while (!upgrade);
 

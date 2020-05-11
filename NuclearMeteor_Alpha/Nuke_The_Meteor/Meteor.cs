@@ -13,7 +13,6 @@ namespace Nuke_The_Meteor
         {
             MDT = day * CMDT;
 
-
         }
 
         public double MDTCalc(double day, double CMDT)

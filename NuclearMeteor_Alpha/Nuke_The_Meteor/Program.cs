@@ -7,9 +7,10 @@ namespace Nuke_The_Meteor
     {
         public static void Main(string[] args)
         {
-            
+            Title = "Nuke the Meteor";
+            CursorVisible = false;
             Game currentGame = new Game();
-
+            //currentGame.Start();
         }
     }
 }
